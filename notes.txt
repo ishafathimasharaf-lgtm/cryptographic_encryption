@@ -1,0 +1,1 @@
+This file is protected using AES-256-GCM.

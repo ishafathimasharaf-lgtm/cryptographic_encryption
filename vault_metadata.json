@@ -1,0 +1,22 @@
+{
+    "algorithm": "AES-256-GCM",
+    "key_derivation": "PBKDF2-HMAC-SHA256",
+    "iterations": 600000,
+    "files": [
+        {
+            "file": "document.txt",
+            "encrypted_file": "document.txt.vault",
+            "sha256": "629425a26afe618e6aa176dc101f0e7b99d36d16ad48b2221bfe6036465e1d09"
+        },
+        {
+            "file": "notes.txt",
+            "encrypted_file": "notes.txt.vault",
+            "sha256": "55a4f0f7e63a26a5fa2ffd87633e1c7ee0e194cc255b826c496fa2b74d47fbf7"
+        },
+        {
+            "file": "report.txt",
+            "encrypted_file": "report.txt.vault",
+            "sha256": "41599f1038dedf44307ccc9ae4c9063aab503787db29e4caa837095409063641"
+        }
+    ]
+}
